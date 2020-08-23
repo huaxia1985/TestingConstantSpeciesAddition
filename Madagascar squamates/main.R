@@ -1,6 +1,7 @@
 library(ape)
 library(deSolve)
-# load workspace, which has the trees and all the functions needed
+# load a list called tree that include 300 randomly chosen trees from Crottini et al. 2012
+# copy all the functions included in the folder
 result <- vector("list",300)
 # for the ith tree
 for (i in 1:300) {
